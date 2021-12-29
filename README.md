@@ -9,7 +9,6 @@ Currently CyberHackademy student in Naples 🥑 at Federico II
 
 ___
 
-<a href="https://app.daily.dev/Francesco"><img align='right' src="https://github.com/FrancescoXX/FrancescoXX/blob/main/devcard.svg" width="200" alt="Francesco Ciulla's Dev Card"/></a>
 ## 🥞 Tech Stack
  
 I work with many different technologies and languages. 
