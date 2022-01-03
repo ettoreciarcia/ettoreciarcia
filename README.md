@@ -1,6 +1,4 @@
-# Hi 👋, I Am Ettore
-
-<!-- Actual text -->
+# Hi 👋 I Am Ettore
 
 I am a young Computer Engineer interested in **Cloud Computing**
 
