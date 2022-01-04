@@ -25,4 +25,8 @@ My favorite ones are Docker, ELK Stack, Terraform, Linux system.
 
  <br> 
  
+ 
+ <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+ <div class="badge-base LI-profile-badge" data-locale="it_IT" data-size="medium" data-theme="light" data-type="HORIZONTAL" data-vanity="ettoreciarcia" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://it.linkedin.com/in/ettoreciarcia?trk=profile-badge">Ettore Ciarcia</a></div>
+              
 
