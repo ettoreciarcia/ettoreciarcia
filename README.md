@@ -24,6 +24,4 @@ My favorite ones are Docker, ELK Stack, Terraform, Linux system.
 
 
  <br> 
- 
- 
-<a href=”https://www.linkedin.com/in/ettoreciarcia/"> ![alt text](https://img.shields.io/badge/-LinkedIn-0e76a8?style=plastic&logo=linkedIn)</a>
+
