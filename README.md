@@ -25,3 +25,4 @@ My favorite ones are Docker, ELK Stack, Terraform, Linux system.
 
  <br> 
 
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=ettoreciarcia)](https://github.com/anuraghazra/github-readme-stats)
