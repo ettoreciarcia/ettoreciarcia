@@ -27,3 +27,10 @@ My favorite ones are Docker, ELK Stack, Terraform, Linux system.
 
 <!-- [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=ettoreciarcia)](https://github.com/anuraghazra/github-readme-stats) -->
 
+## Hi, I'm [Ettore Ciarcia!](https://ettoreciarcia.com) 👋
+
+<!-- ABOUT_START -->
+📌 &nbsp; Avellino, Italy  
+💼 &nbsp; Cloud Engineer @ [Epsilon](https://www.epsilonline.com/)  
+🎓 &nbsp; [Computer Engineer Student](https://www.unina.it/-/1483951-ingegneria-informatica) @ Federico II University
+💻 &nbsp; [CyberHackademy Graduate](https://academy.dieti.unina.it/index.php/cybersecurity-hackademy-it) @ Federico II University & Accenture([Final Project: DragonTrap](https://www.youtube.com/watch?v=DDVL2ZiZcyg&t=4s)) 
