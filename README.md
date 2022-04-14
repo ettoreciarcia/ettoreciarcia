@@ -5,7 +5,7 @@
 📌 &nbsp; Avellino, Italy  
 💼 &nbsp; Cloud Engineer @ [Epsilon](https://www.epsilonline.com/)  
 🎓 &nbsp; [Computer Engineer Student](https://www.unina.it/-/1483951-ingegneria-informatica) @ Federico II University <br>
-💻 &nbsp; [CyberHackademy Graduate](https://academy.dieti.unina.it/index.php/cybersecurity-hackademy-it) @ Federico II University & Accenture( [Final Project: DragonTrap](https://www.youtube.com/watch?v=DDVL2ZiZcyg&t=4s)) 
+💻 &nbsp; [CyberHackademy Graduate](https://academy.dieti.unina.it/index.php/cybersecurity-hackademy-it) @ Federico II University & Accenture ([Final Project: DragonTrap](https://www.youtube.com/watch?v=DDVL2ZiZcyg&t=4s)) 
 
 ___
 
