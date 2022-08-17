@@ -19,9 +19,9 @@ My favorite ones are Docker, ELK Stack, Terraform, Linux system.
 <img src="https://cdn.worldvectorlogo.com/logos/aws-2.svg" title="AWS" alt="AWS" width="80"/>&emsp;
 <img src="https://cdn.worldvectorlogo.com/logos/kubernets.svg" title="Kubernetes" alt="Kubernetes" width="80"/>&emsp;
 <img src="https://cdn.worldvectorlogo.com/logos/docker-3.svg" title="Docker" alt="Docker Logo" width="160"/>&emsp;
-<img src="https://cdn.worldvectorlogo.com/logos/raspberry-pi.svg" title="Raspberry Logo" alt="Raspberry Logo" width="60"/>&emsp;
 <img src="https://cdn.worldvectorlogo.com/logos/terraform-enterprise.svg" title="Terraform Logo" alt="Terraform Logo" width="60"/>&emsp;
 <img src="https://cdn.worldvectorlogo.com/logos/python-3.svg" title="Python Logo" alt="Python Logo" width="160"/>&emsp;
+<img src="https://cdn.worldvectorlogo.com/logos/raspberry-pi.svg" title="Raspberry Logo" alt="Raspberry Logo" width="60"/>&emsp;
 <img src="https://cdn.worldvectorlogo.com/logos/elastic-stack.svg" title="Elasticsearch Logo" alt="Elasticsearch Logo" width="80"/>&emsp;
 
 
