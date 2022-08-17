@@ -11,8 +11,7 @@ ___
 
 ## 🥞 Tech Stack
  
-I work with many different technologies and languages. 
-My favorite ones are Docker, ELK Stack, Terraform, Linux system.
+
  
 
 <img src="https://cdn.worldvectorlogo.com/logos/linux-tux-1.svg" title="Linux" alt="Linux Logo" width="80"/>&emsp;
