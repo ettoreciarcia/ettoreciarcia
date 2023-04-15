@@ -3,29 +3,38 @@
 
 <!-- ABOUT_START -->
 📌 &nbsp; Avellino, Italy  
-💼 &nbsp; Cloud Engineer @ [Epsilon](https://www.epsilonline.com/)  
+💼 &nbsp; Kubernetes & Cloud Engineer @ [SIGHUP](https://sighup.io/)  
 🎓 &nbsp; [Computer Engineer Student](https://www.unina.it/-/1483951-ingegneria-informatica) @ Federico II University <br>
-💻 &nbsp; [CyberHackademy Graduate](https://academy.dieti.unina.it/index.php/cybersecurity-hackademy-it) @ Federico II University & Accenture ([Final Project: DragonTrap](https://www.youtube.com/watch?v=DDVL2ZiZcyg&t=4s)) 
+💻 &nbsp; [CyberHackademy Graduate](https://academy.dieti.unina.it/index.php/cybersecurity-hackademy-it) @ Federico II University & Accenture ([Final Project: Honey net on AWS](https://www.youtube.com/watch?v=DDVL2ZiZcyg&t=4s)) 
 
 ___
 
-## 🥞 Tech Stack
+## 🚀💻 Technologies & Tools
  
+<p align="center">
+    <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="55" height="55"/>
+    <img src="https://www.vectorlogo.zone/logos/docker/docker-official.svg" alt="docker" width="60" height="50"/>
+    <img src="https://www.vectorlogo.zone/logos/terraformio/terraformio-icon.svg" alt="Terraform" width="55" height="55"/>
+    <img src="https://www.vectorlogo.zone/logos/linux/linux-icon.svg" alt="mysql" width="45" height="55"/>
+    <img src="https://www.vectorlogo.zone/logos/ansible/ansible-icon.svg" alt="Ansible" width="55" height="55"/>  
+    <img src="https://www.vectorlogo.zone/logos/python/python-icon.svg" alt="python" width="55" height="55"/>
+    <img src="https://www.vectorlogo.zone/logos/golang/golang-icon.svg" alt="golang" width="45" height="55"/>
+    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="GIT" width="55" height="55"/> 
+    <img src="https://www.vectorlogo.zone/logos/elastic/elastic-icon.svg" alt="eastic" width="55" height="55"/>
+    <img src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg" alt="Amazon Web Services" width="55" height="55"/>
+    <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="55" height="55"/>
+    <img src="https://www.vectorlogo.zone/logos/prometheusio/prometheusio-icon.svg" alt="mysql" width="45" height="55"/>
+    <img src="https://www.vectorlogo.zone/logos/grafana/grafana-icon.svg" alt="mysql" width="45" height="55"/>
+    <img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" alt="mysql" width="45" height="55"/>
+    <img src="https://www.vectorlogo.zone/logos/argoprojio/argoprojio-icon.svg" alt="mysql" width="45" height="55"/>
+    <img src="https://www.vectorlogo.zone/logos/nginx/nginx-icon.svg" alt="mysql" width="45" height="55"/>
+</p>
 
- 
 
-<img src="https://cdn.worldvectorlogo.com/logos/linux-tux-1.svg" title="Linux" alt="Linux Logo" width="80"/>&emsp;
-<img src="https://cdn.worldvectorlogo.com/logos/aws-2.svg" title="AWS" alt="AWS" width="80"/>&emsp;
-<img src="https://cdn.worldvectorlogo.com/logos/kubernets.svg" title="Kubernetes" alt="Kubernetes" width="80"/>&emsp;
-<img src="https://cdn.worldvectorlogo.com/logos/docker-3.svg" title="Docker" alt="Docker Logo" width="160"/>&emsp;
-<img src="https://cdn.worldvectorlogo.com/logos/terraform-enterprise.svg" title="Terraform Logo" alt="Terraform Logo" width="60"/>&emsp;
-<img src="https://cdn.worldvectorlogo.com/logos/python-3.svg" title="Python Logo" alt="Python Logo" width="160"/>&emsp;
-<img src="https://cdn.worldvectorlogo.com/logos/raspberry-pi.svg" title="Raspberry Logo" alt="Raspberry Logo" width="60"/>&emsp;
-<img src="https://cdn.worldvectorlogo.com/logos/elastic-stack.svg" title="Elasticsearch Logo" alt="Elasticsearch Logo" width="80"/>&emsp;
+<img align="left" src="https://github-readme-stats.vercel.app/api?username=ettoreciarcia&show_icons=true&count_private=true&theme=gruvbox" />
 
 
-
- <br> 
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ettoreciarcia&layout=compact&count_private=true&theme=gruvbox" />
 
 <!-- [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=ettoreciarcia)](https://github.com/anuraghazra/github-readme-stats) -->
 
