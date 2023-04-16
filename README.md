@@ -27,8 +27,6 @@ ___
     <img src="https://www.vectorlogo.zone/logos/grafana/grafana-icon.svg" alt="grafana" width="45" height="55"/>
     <img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" alt="jenkins" width="45" height="55"/>
     <img src="https://www.vectorlogo.zone/logos/argoprojio/argoprojio-icon.svg" alt="argocd" width="45" height="55"/>
-</p>
-<p align="center">
     <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="GIT" width="55" height="55"/> 
     <img src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg" alt="Amazon Web Services" width="55" height="55"/>
     <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="55" height="55"/>
