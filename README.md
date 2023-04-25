@@ -32,11 +32,11 @@ ___
     <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="55" height="55"/>
     <img src="https://www.vectorlogo.zone/logos/prometheusio/prometheusio-icon.svg" alt="prometheus" width="45" height="55"/>
 </p>
-<p align="center">
+<!-- <p align="center">
     <img src="https://www.vectorlogo.zone/logos/virtualbox/virtualbox-icon.svg" alt="virtual box" width="45" height="55"/>
     <img src="https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg" alt="raspberrypi" width="45" height="55"/>
     <img src="https://www.vectorlogo.zone/logos/containerdio/containerdio-icon.svg" alt="containerd" width="45" height="55"/>
-</p>
+</p> -->
 <p align="center">
     <img src="https://www.vectorlogo.zone/logos/elastic/elastic-icon.svg" alt="elastic" width="55" height="55"/>
     <img src="https://www.vectorlogo.zone/logos/elasticco_logstash/elasticco_logstash-icon.svg" alt="logstash" width="55" height="55"/>
