@@ -33,6 +33,11 @@ ___
     <img src="https://www.vectorlogo.zone/logos/prometheusio/prometheusio-icon.svg" alt="prometheus" width="45" height="55"/>
 </p>
 <p align="center">
+    <img src="https://www.vectorlogo.zone/logos/virtualbox/virtualbox-icon.svg" alt="virtual box" width="45" height="55"/>
+    <img src="https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg" alt="raspberrypi" width="45" height="55"/>
+    <img src="https://www.vectorlogo.zone/logos/containerdio/containerdio-icon.svg" alt="containerd" width="45" height="55"/>
+</p>
+<p align="center">
     <img src="https://www.vectorlogo.zone/logos/elastic/elastic-icon.svg" alt="elastic" width="55" height="55"/>
     <img src="https://www.vectorlogo.zone/logos/elasticco_logstash/elasticco_logstash-icon.svg" alt="logstash" width="55" height="55"/>
     <img src="https://www.vectorlogo.zone/logos/elasticco_kibana/elasticco_kibana-icon.svg" alt="kibana" width="55" height="55"/>
@@ -40,12 +45,6 @@ ___
 <p align="center">
     <img src="https://www.vectorlogo.zone/logos/nginx/nginx-icon.svg" alt="mysql" width="45" height="55"/>
 </p>
-
-___
-<br>
-<br>
-
-<img align="center" src="https://github-readme-stats.vercel.app/api?username=ettoreciarcia&show_icons=true&count_private=true&theme=gruvbox" />
 
 
 <!-- [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=ettoreciarcia)](https://github.com/anuraghazra/github-readme-stats) -->
