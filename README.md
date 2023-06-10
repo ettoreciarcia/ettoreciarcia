@@ -60,7 +60,7 @@ ___
 | February 21, 2023 | [Networking behind container: network namespaces](https://ettoreciarcia.com/posts/02-nsveth/) |
 | January 6, 2023 | [How to deploy your own website on AWS with Terraform and Git Hub Actions!](https://ettoreciarcia.com/posts/01-iac-and-pipeline-my-personal-website/) |
 
-[**All blog posts and articles**](./BLOG_POSTS_ARTICLES.md)
+[**All blog posts and articles**](https://ettoreciarcia.com/posts/)
 
 
 
