@@ -1,0 +1,239 @@
+name: $(BuildDefinitionName)_$(Year:yyyy).$(Month).$(DayOfMonth)$(Rev:.r)
+
+trigger:
+ - none
+
+pool:
+  name: 'LINUX AGENT'
+
+parameters:
+- name: variableSecretsGroup
+  type: string
+  default: Infra-Redis-Secrets
+- name: hostsALFA
+  type: object
+  default:
+  - AZ0ALFKNGRD11C
+- name: hostsCOLL
+  type: object
+  default:
+  - VT0CLDKNGRD11
+- name: hostsPROD
+  type: object
+  default:
+  - VT0CRGKNGRD11C
+  - VT0CRGKNGRD12C
+  - VT0CRGKNGRD13C
+- name: redisMasterNamePROD
+  type: string
+  default: VT0CRGKNGRD11C
+
+stages:
+  - stage: DeployToProd
+    displayName: Deploy to PROD env
+    pool: 'LINUX AGENT'
+    jobs:
+      - ${{ each host in parameters.hostsPROD }}:
+        - deployment: deploy_prod_${{ host }}
+          displayName: 'Deploy ${{ host }}'
+          environment: INFRA_CRG_REDIS
+          variables:
+            - group: ${{ parameters.variableSecretsGroup }}
+          workspace:
+            clean: all
+          strategy:
+            runOnce:
+              deploy:
+                steps:
+                  - checkout: self
+                  - task: replacetokens@4
+                    displayName: 'ReplaceTask'
+                    inputs:
+                      rootDirectory: "$(Build.SourcesDirectory)/src/config/prod"
+                      targetFiles: '**/*.conf'
+                      encoding: 'utf-8'
+                      tokenPattern: 'default'
+                      writeBOM: true
+                      actionOnMissing: 'fail'
+                      actionOnNoFiles: 'fail'
+                  # - task: DownloadSecureFile@1
+                  #   name: downloadCaCertificate
+                  #   displayName: 'Download CA certificate'
+                  #   inputs:
+                  #     secureFile: 'ca.pem'
+                  # - task: DownloadSecureFile@1
+                  #   name: downloadRedisCertificate
+                  #   displayName: 'Download redis certificate'
+                  #   inputs:
+                  #     secureFile: ${{ host }}.group.credem.net.client.pem
+                  # - task: DownloadSecureFile@1
+                  #   name: downloadRedisKey
+                  #   displayName: 'Download redis key'
+                  #   inputs:
+                  #     secureFile: ${{ host }}.group.credem.net.privkey.pem
+                  - task: CopyFilesOverSSH@0
+                    name: CopyArtifacts
+                    inputs:
+                      sshEndpoint: ${{ host }}
+                      sourceFolder: '$(Build.Repository.LocalPath)/src/RPMs'
+                      contents: "redis-**.rpm"
+                      targetFolder: '/var/tmp/$(Build.BuildID)'
+                      cleanTargetFolder: true
+                      readyTimeout: '20000'
+                  - task: CopyFilesOverSSH@0
+                    name: CopyConfigs
+                    inputs:
+                      sshEndpoint: ${{ host }}
+                      sourceFolder: '$(Build.Repository.LocalPath)/src/config/prod/no-tls'
+                      contents: "redis**.conf"
+                      targetFolder: '/var/tmp/$(Build.BuildID)/config'
+                      cleanTargetFolder: true
+                      readyTimeout: '20000'
+                  # - task: CopyFilesOverSSH@0
+                  #   name: CopyCerts
+                  #   inputs:
+                  #     sshEndpoint: ${{ host }}
+                  #     sourceFolder: $(Agent.TempDirectory)
+                  #     contents: "**/**.pem"
+                  #     targetFolder: '/var/tmp/$(Build.BuildID)/tls'
+                  #     cleanTargetFolder: true
+                  #     readyTimeout: '20000'
+                  - task: SSH@0
+                    displayName: "Get Redis Master IP address"
+                    inputs:
+                      sshEndpoint: ${{ parameters.redisMasterNamePROD }}
+                      runOptions: 'inline'
+                      inline: |-
+                        #!/bin/bash
+                        set -e
+                        default_iface=$(awk '$2 == 00000000 { print $1 }' /proc/net/route)
+                        default_ip=$(ip addr show dev "$default_iface" | awk '$1 == "inet" { sub("/.*", "", $2); print $2 }')
+                        echo "##vso[task.setvariable variable=redisMasterHostPROD;]$default_ip"
+                  - task: SSH@0
+                    displayName: 'Installing redis on ${{ host }}'
+                    inputs:
+                      sshEndpoint: ${{ host }}
+                      runOptions: 'inline'
+                      inline: |
+                        #!/bin/bash
+                        set -e
+                        export SENTINEL_MONITOR_MASTER_NAME=kong-prod
+                        sudo ls -lha /var/tmp/$(Build.BuildID)
+                      
+                        default_iface=$(awk '$2 == 00000000 { print $1 }' /proc/net/route)
+                        default_ip=$(ip addr show dev "$default_iface" | awk '$1 == "inet" { sub("/.*", "", $2); print $2 }')
+                        
+                        # Redis
+                        echo "********** Configuring redis **********"
+                        sudo dos2unix /var/tmp/$(Build.BuildID)/config/redis.conf 2> /dev/null
+                        sudo cp /var/tmp/$(Build.BuildID)/config/redis.conf /etc/redis/redis.conf
+                        sudo sed -i -e "s|^bind .*$|bind $default_ip 127.0.0.1 -::1|g" /etc/redis/redis.conf
+                        sudo sed -i -E "s|^[# ]replica-announce-ip .*|replica-announce-ip ${{lower(host)}}.group.credem.net|g" /etc/redis/redis.conf
+
+                        
+                        echo "********** Configuring redis auth **********"
+                        printf "user default on #$(echo -n $(CRG_REDIS_PASSWORD) | sha256sum | cut -d' ' -f1) ~* &* +@all
+                        user shutdown-user on nopass resetchannels -@all +shutdown
+                        user sentinel-user on #$(echo -n $(CRG_REDIS_PASSWORD) | sha256sum | cut -d' ' -f1) &* -@all +config|rewrite +role +script|kill +publish +slaveof +ping +subscribe +client|kill +client|setname +multi +exec +info
+                        user replica-user on #$(echo -n $(CRG_REDIS_PASSWORD) | sha256sum | cut -d' ' -f1) resetchannels -@all +psync +ping +replconf
+                        user exporter-user on nopass ~* resetchannels -@all +@connection +scard +config|get +scan +latency +slowlog -wait +strlen +xinfo -reset -hello -echo +hlen +cluster|info -quit -asking -readwrite -command +type +get +pfcount +zcard +eval +memory +client -auth +llen +info +xlen -readonly" | sudo dd of=/etc/redis/users.acl 2> /dev/null
+                        sudo sed -i -e 's|^[# ]*masterauth .*$|masterauth $(CRG_REDIS_PASSWORD)|g' /etc/redis/redis.conf
+                        sudo sed -i -e 's|^[# ]*masteruser .*$|masteruser replica-user|g' /etc/redis/redis.conf
+
+                        echo "********** Check redis conf file **********"
+                        sudo cat /etc/redis/redis.conf
+
+                        echo "********** Configuring redis-sentinel auth **********"
+                        # The sentinel user ACL
+                        printf "user default on #$(echo -n $(CRG_REDIS_PASSWORD) | sha256sum | cut -d' ' -f1) sanitize-payload ~* &* +@all
+                        user shutdown-user on nopass resetchannels -@all +shutdown
+                        user exporter-user on nopass ~* resetchannels -@all +@connection -command +client +info -auth -hello" | sudo dd of=/etc/redis/users-sentinel.acl 2> /dev/null
+
+                        # Configure Redis Sentinel
+                        echo "********** Configuring redis sentinel **********"
+                        sudo sed -i -e 's|^[# ]*aclfile .*$|aclfile /etc/redis/users-sentinel.acl|g' /etc/redis/sentinel.conf
+                        sudo sed -i -E "s|^[# ]*sentinel announce-ip .*|sentinel announce-ip ${{lower(host)}}.group.credem.net|g" /etc/redis/sentinel.conf
+                        sudo sed -i -E "s|^[# ]*sentinel announce-port .*|sentinel announce-port 26379|g" /etc/redis/sentinel.conf
+                        sudo sed -i -E "s|^[# ]*SENTINEL resolve-hostnames .*|sentinel resolve-hostnames yes|g" /etc/redis/sentinel.conf
+                        sudo sed -i -E "s|^[# ]*SENTINEL announce-hostnames .*|sentinel announce-hostnames yes|g" /etc/redis/sentinel.conf
+                        sudo sed -i -E "s|^sentinel monitor (mymaster\|${SENTINEL_MONITOR_MASTER_NAME}) .*$|sentinel monitor ${SENTINEL_MONITOR_MASTER_NAME} ${{lower(parameters.redisMasterNamePROD)}}.group.credem.net 6379 2|g" /etc/redis/sentinel.conf
+                        sudo sed -i -E "s|^[# ]*sentinel auth-pass (<master-name>\|${SENTINEL_MONITOR_MASTER_NAME}) .*$|sentinel auth-pass ${SENTINEL_MONITOR_MASTER_NAME} $(CRG_REDIS_PASSWORD)|g" /etc/redis/sentinel.conf
+                        sudo sed -i -E "s|^[# ]*sentinel auth-user (<master-name>\|${SENTINEL_MONITOR_MASTER_NAME}) .*$|sentinel auth-user ${SENTINEL_MONITOR_MASTER_NAME} sentinel-user|g" /etc/redis/sentinel.conf
+                        sudo sed -i -E "s|^[# ]*sentinel sentinel-pass .*$|sentinel sentinel-pass $(CRG_REDIS_PASSWORD)|g" /etc/redis/sentinel.conf
+                        sudo sed -i -E "s|^[# ]*sentinel sentinel-user .*$|sentinel sentinel-user default|g" /etc/redis/sentinel.conf
+                        sudo sed -i -E "s|^[# ]*sentinel down-after-milliseconds (mymaster\|${SENTINEL_MONITOR_MASTER_NAME}) .*$|sentinel down-after-milliseconds ${SENTINEL_MONITOR_MASTER_NAME} 5000|g" /etc/redis/sentinel.conf
+                        sudo sed -i -E "s|^[# ]*sentinel parallel-syncs (mymaster\|${SENTINEL_MONITOR_MASTER_NAME}) .*$|sentinel parallel-syncs ${SENTINEL_MONITOR_MASTER_NAME} 1|g" /etc/redis/sentinel.conf
+                        sudo sed -i -E "s|^[# ]*sentinel failover-timeout (mymaster\|${SENTINEL_MONITOR_MASTER_NAME}) .*$|sentinel failover-timeout ${SENTINEL_MONITOR_MASTER_NAME} 10000|g" /etc/redis/sentinel.conf
+                        sudo sed -i -E "s|^[# ]*SENTINEL master-reboot-down-after-period (mymaster\|${SENTINEL_MONITOR_MASTER_NAME}) .*$|SENTINEL master-reboot-down-after-period ${SENTINEL_MONITOR_MASTER_NAME} 0|g" /etc/redis/sentinel.conf
+
+                        echo "********** Check redis-sentinel conf file **********"
+                        sudo cat /etc/redis/sentinel.conf
+
+                        # Redis exporter
+                        echo "********** Configuring redis-exporter **********"
+                        sudo dos2unix /var/tmp/$(Build.BuildID)/config/redis.conf 2> /dev/null
+                        sudo cp /var/tmp/$(Build.BuildID)/config/redis-exporter.conf /etc/redis-exporter/default/redis
+                        
+                        # Redis exporter sentinel
+                        echo "********** Configuring redis-exporter-sentinel **********"
+                        sudo sed -i -e "s|^REDIS_ADDR=.*$|REDIS_ADDR=rediss://${{lower(host)}}.group.credem.net:26379|" /etc/redis-exporter/default/sentinel
+                        sudo sed -i -e "s|^REDIS_USER=.*$|REDIS_USER=exporter-user|" /etc/redis-exporter/default/sentinel
+                        sudo sed -i -e "s|^REDIS_PASSWORD=.*$|REDIS_PASSWORD=noauthrequired|" /etc/redis-exporter/default/sentinel
+
+                        echo "********** Check redis exporter sentinel conf file **********"
+                        sudo cat /etc/redis-exporter/default/sentinel
+                      readyTimeout: '20000'
+                  - task: SSH@0
+                    displayName: 'Restart redis replicaof on ${{ host }}'
+                    inputs:
+                      sshEndpoint: ${{ host }}
+                      runOptions: 'inline'
+                      inline: |
+                        #!/bin/bash
+                        set -e
+                        
+                        echo "Restart redis"
+                        # SystemD
+                        sudo systemctl daemon-reload
+                        echo "********** Start redis **********"
+                        sudo systemctl restart redis.service
+                        sudo systemctl enable redis.service 2> /dev/null
+
+
+                        echo "********** Check Redis log **********"
+                        sudo tail -n 50 /var/log/redis/redis.log
+                        
+                        echo "********** Start redis-exporter **********"
+                        sudo systemctl restart redis-exporter.service
+                        sudo systemctl enable redis-exporter.service 2> /dev/null
+
+                        echo "********** Start redis-sentinel **********"
+                        sudo systemctl restart redis-sentinel.service
+                        sudo systemctl enable redis-sentinel.service 2> /dev/null
+                        
+                        echo "********** Start redis-expoter-sentinel **********"
+                        sudo systemctl restart redis-exporter-sentinel.service
+                        sudo systemctl enable redis-exporter-sentinel.service 2> /dev/null
+
+                        echo "********** clean build **********"
+                        sudo rm -rf /var/tmp/$(Build.BuildID)
+                  # - task: SSH@0
+                  #   displayName: 'Configuring redis replicaof on ${{ host }}'
+                  #   condition: ne('${{parameters.redisMasterNamePROD}}', '${{host}}')
+                  #   inputs:
+                  #     sshEndpoint: ${{ host }}
+                  #     runOptions: 'inline'
+                  #     inline: |
+                  #       #!/bin/bash
+                  #       set -e
+                        
+                  #       ######################################################################
+                  #       ########## add checks:                                      ##########
+                  #       ########## - verify master has not been changed by sentinel ##########
+                  #       ######################################################################
+                        
+                  #       echo "********** Configuring redis as replica **********"
+                  #       sudo sed -i -e 's|^[# ]*replicaof .*$|replicaof $(redisMasterHostPROD) 6379|g' /etc/redis/redis.conf
+                        
+                  #       echo "Restart redis"
+                  #       sudo systemctl restart redis.service
