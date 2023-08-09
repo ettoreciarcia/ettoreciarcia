@@ -54,7 +54,7 @@ ___
 
 | Date          | Title |
 |:--------------|:------|
-| May 26, 2023 | [DNS in Kubernetes](https://ettoreciarcia.com/posts/09-dns-in-kubernetes/) |
+| June 26, 2023 | [DNS in Kubernetes](https://ettoreciarcia.com/posts/09-dns-in-kubernetes/) |
 | May 9, 2023 | [How to setup an Headscale server for free on AWS via Terraform and Ansible](https://ettoreciarcia.com/posts/08-network-overlay/) | 
 | April 30, 2023 | [Homelab2.0 & journey's partner](https://ettoreciarcia.com/posts/07-homelab2.0/) | 
 | March 31, 2023 | [From kubectl command to running pods](https://ettoreciarcia.com/posts/06-kubernetes-overview/) |
