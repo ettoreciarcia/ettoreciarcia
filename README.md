@@ -54,7 +54,7 @@ ___
 
 | Date          | Title |
 |:--------------|:------|
-| September 1, 2023 | [How to deploy your website, but it’s the early 2000s [Time Machine-E2]r](https://ettoreciarcia.com/posts/12-time-machine-e2/) | 
+| September 1, 2023 | [How to deploy your website, but it’s the early 2000s [Time Machine-E2]](https://ettoreciarcia.com/posts/12-time-machine-e2/) | 
 | August 31, 2023 | [Time Machine - E1](https://ettoreciarcia.com/posts/11-time-machine-e1/) |
 | July 29, 2023 | [Terraform: local state, remote state on s3 and Terraform Cloud!](https://ettoreciarcia.com/posts/10-terraform-state/) |
 | June 26, 2023 | [DNS in Kubernetes](https://ettoreciarcia.com/posts/09-dns-in-kubernetes/) |
