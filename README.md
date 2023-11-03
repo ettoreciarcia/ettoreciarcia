@@ -54,11 +54,12 @@ ___
 
 | Date          | Title |
 |:--------------|:------|
+| October 30, 2023 | [Community Month](https://ettoreciarcia.com/posts/13-conference-month/) | 
 | September 1, 2023 | [How to deploy your website, but it’s the early 2000s [Time Machine-E2]](https://ettoreciarcia.com/posts/12-time-machine-e2/) | 
 | August 31, 2023 | [Time Machine - E1](https://ettoreciarcia.com/posts/11-time-machine-e1/) |
 | July 29, 2023 | [Terraform: local state, remote state on s3 and Terraform Cloud!](https://ettoreciarcia.com/posts/10-terraform-state/) |
 | June 26, 2023 | [DNS in Kubernetes](https://ettoreciarcia.com/posts/09-dns-in-kubernetes/) |
-| May 9, 2023 | [How to setup an Headscale server for free on AWS via Terraform and Ansible](https://ettoreciarcia.com/posts/08-network-overlay/) | 
+
 
 
 [**All blog posts and articles**](https://ettoreciarcia.com/posts/)
