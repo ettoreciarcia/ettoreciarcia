@@ -38,6 +38,8 @@ ___
     <img src="https://www.vectorlogo.zone/logos/virtualbox/virtualbox-icon.svg" alt="virtual box" width="45" height="55"/>
     <img src="https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg" alt="raspberrypi" width="45" height="55"/>
     <img src="https://www.vectorlogo.zone/logos/containerdio/containerdio-icon.svg" alt="containerd" width="45" height="55"/>
+    <img src="https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg" alt="postgres" width="45" height="55"/>
+    <img src="https://www.vectorlogo.zone/logos/amazon_eks/amazon_eks-icon.svg" alt="eks" width="45" height="55"/>
 </p> -->
 <p align="center">
     <img src="https://www.vectorlogo.zone/logos/elastic/elastic-icon.svg" alt="elastic" width="55" height="55"/>
@@ -54,11 +56,12 @@ ___
 
 | Date          | Title |
 |:--------------|:------|
-| October 30, 2023 | [Community Month](https://ettoreciarcia.com/posts/13-conference-month/) | 
+| November 14, 2023 | [Log flows within a Kubernetes cluster: the path of the Logging Operator](https://ettoreciarcia.com/posts/15-logging-operator/) | 
+| October 30, 2023 | [(Container, DevSecOps, Linux)Day!](https://ettoreciarcia.com/posts/13-conference-month/) | 
 | September 1, 2023 | [How to deploy your website, but it’s the early 2000s [Time Machine-E2]](https://ettoreciarcia.com/posts/12-time-machine-e2/) | 
 | August 31, 2023 | [Time Machine - E1](https://ettoreciarcia.com/posts/11-time-machine-e1/) |
 | July 29, 2023 | [Terraform: local state, remote state on s3 and Terraform Cloud!](https://ettoreciarcia.com/posts/10-terraform-state/) |
-| June 26, 2023 | [DNS in Kubernetes](https://ettoreciarcia.com/posts/09-dns-in-kubernetes/) |
+
 
 
 
