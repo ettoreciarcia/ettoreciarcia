@@ -56,11 +56,12 @@ ___
 
 | Date          | Title |
 |:--------------|:------|
+| December 31, 2023 | [Retrospective on 2023 and Resolution for 2024](https://ettoreciarcia.com/posts/16-retrospective-resolution/) |
 | November 14, 2023 | [Log flows within a Kubernetes cluster: the path of the Logging Operator](https://ettoreciarcia.com/posts/15-logging-operator/) | 
 | October 30, 2023 | [(Container, DevSecOps, Linux)Day!](https://ettoreciarcia.com/posts/13-conference-month/) | 
 | September 1, 2023 | [How to deploy your website, but it’s the early 2000s [Time Machine-E2]](https://ettoreciarcia.com/posts/12-time-machine-e2/) | 
 | August 31, 2023 | [Time Machine - E1](https://ettoreciarcia.com/posts/11-time-machine-e1/) |
-| July 29, 2023 | [Terraform: local state, remote state on s3 and Terraform Cloud!](https://ettoreciarcia.com/posts/10-terraform-state/) |
+
 
 
 
