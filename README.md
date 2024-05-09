@@ -56,7 +56,7 @@ ___
 
 | Date          | Title |
 |:--------------|:------|
-| 26 April, 2024 | [The native integration between Alert Manager and Microsoft Teams](https://ettoreciarcia.com/posts/20-native-integration-alertmanager-msteams/) | 
+| April 26, 2024 | [The native integration between Alert Manager and Microsoft Teams](https://ettoreciarcia.com/posts/20-native-integration-alertmanager-msteams/) | 
 | March 24, 2024 | [How to expose your website with Docker and Traefik](https://ettoreciarcia.com/posts/19-how-to-self-host-your-website/) | 
 | February 1, 2024 | [Homelabbers Assemble: Proxmox and Terraform](https://ettoreciarcia.com/posts/18-homelabbers-assemble/) | 
 | January 6, 2024 | [How to have a DDNS if your router doesn't support it](https://ettoreciarcia.com/posts/17-ddns-without-ddns/) |
