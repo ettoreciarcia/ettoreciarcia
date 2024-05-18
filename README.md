@@ -34,13 +34,15 @@ ___
     <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="55" height="55"/>
     <img src="https://www.vectorlogo.zone/logos/prometheusio/prometheusio-icon.svg" alt="prometheus" width="45" height="55"/>
 </p>
-<!-- <p align="center">
+<p align="center">
     <img src="https://www.vectorlogo.zone/logos/virtualbox/virtualbox-icon.svg" alt="virtual box" width="45" height="55"/>
     <img src="https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg" alt="raspberrypi" width="45" height="55"/>
-    <img src="https://www.vectorlogo.zone/logos/containerdio/containerdio-icon.svg" alt="containerd" width="45" height="55"/>
+    <img src="https://www.vectorlogo.zone/logos/ciliumio/ciliumio-icon.svg" alt="Cilium" width="45" height="55"/>
+    <!-- <img src="https://www.vectorlogo.zone/logos/containerdio/containerdio-icon.svg" alt="containerd" width="45" height="55"/> -->
+    <img src="https://www.vectorlogo.zone/logos/konghq/konghq-icon.svg" alt="kong" width="45" height="55"/>
     <img src="https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg" alt="postgres" width="45" height="55"/>
     <img src="https://www.vectorlogo.zone/logos/amazon_eks/amazon_eks-icon.svg" alt="eks" width="45" height="55"/>
-</p> -->
+</p>
 <p align="center">
     <img src="https://www.vectorlogo.zone/logos/elastic/elastic-icon.svg" alt="elastic" width="55" height="55"/>
     <img src="https://www.vectorlogo.zone/logos/elasticco_logstash/elasticco_logstash-icon.svg" alt="logstash" width="55" height="55"/>
