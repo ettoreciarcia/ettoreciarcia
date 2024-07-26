@@ -58,6 +58,7 @@ ___
 
 | Date          | Title |
 |:--------------|:------|
+| July 20 2024 | [How to become a Kubestronaut](https://ettoreciarcia.com/posts/22-how-to-become-a-kubestronaut/) | 
 | May 19 2024 | [Managing dot files with Chezmoi](https://ettoreciarcia.com/posts/21-managing-dot-files-with-chezmoi/) | 
 | April 26, 2024 | [The native integration between Alert Manager and Microsoft Teams](https://ettoreciarcia.com/posts/20-native-integration-alertmanager-msteams/) | 
 | March 24, 2024 | [How to expose your website with Docker and Traefik](https://ettoreciarcia.com/posts/19-how-to-self-host-your-website/) | 
