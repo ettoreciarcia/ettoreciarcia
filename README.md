@@ -8,7 +8,6 @@
 💻 &nbsp; [CyberHackademy Graduate](https://academy.dieti.unina.it/index.php/cybersecurity-hackademy-it) @ Federico II University & Accenture ([Final Project: Honey net on AWS](https://www.youtube.com/watch?v=DDVL2ZiZcyg&t=4s))
 
 
-
 ___
 
 ## 🚀💻 Technologies & Tools
@@ -54,18 +53,18 @@ ___
 
 ___
 
-### Latest blog posts and articles
+## Latest blog posts and articles
 
 | Date          | Title |
 |:--------------|:------|
-| July 20 2024 | [How to become a Kubestronaut](https://ettoreciarcia.com/posts/22-how-to-become-a-kubestronaut/) | 
-| May 19 2024 | [Managing dot files with Chezmoi](https://ettoreciarcia.com/posts/21-managing-dot-files-with-chezmoi/) | 
-| April 26, 2024 | [The native integration between Alert Manager and Microsoft Teams](https://ettoreciarcia.com/posts/20-native-integration-alertmanager-msteams/) | 
-| March 24, 2024 | [How to expose your website with Docker and Traefik](https://ettoreciarcia.com/posts/19-how-to-self-host-your-website/) | 
-| February 1, 2024 | [Homelabbers Assemble: Proxmox and Terraform](https://ettoreciarcia.com/posts/18-homelabbers-assemble/) | 
+| July 20 2024 | [How to become a Kubestronaut](https://ettoreciarcia.com/publication/22-kubestronaut/) | 
+| May 19 2024 | [Managing dot files with Chezmoi](https://ettoreciarcia.com/publication/21-chezmoi/) | 
+| April 26, 2024 | [The native integration between Alert Manager and Microsoft Teams](https://ettoreciarcia.com/publication/20-alertmanager-teams/) | 
+| March 24, 2024 | [How to expose your website with Docker and Traefik](https://ettoreciarcia.com/publication/19-docker-and-traefik/) | 
+| February 1, 2024 | [Homelabbers Assemble: Proxmox and Terraform](https://ettoreciarcia.com/publication/18-proxmox-and-terraform/) | 
 
 
-[**All blog posts and articles**](https://ettoreciarcia.com/posts/)
+[**All blog posts and articles**](https://ettoreciarcia.com/publication/)
 
 ___
 
