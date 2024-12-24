@@ -98,7 +98,7 @@ ___
 
 | Organization             | Certificate                                   | Obtained | Badge                                                                                                   |
 |--------------------------|----------------------------------------------|----------|---------------------------------------------------------------------------------------------------------|
-| SUSE                     | SCDS in Rancher Manager 2.7 & 2.8 for Rancher Prime | December 2024| [here](https://badges.suse.com/815104d2-8409-4f9b-accf-b552a10e65e5#acc.GjHv395d) 
+| SUSE                     | SCDS in Rancher Manager 2.7 & 2.8 for Rancher Prime | Dec 2024| [here](https://badges.suse.com/815104d2-8409-4f9b-accf-b552a10e65e5#acc.GjHv395d) 
 | The Linux Foundation     | Kubestronaut                                  | July 2024| [here](https://www.credly.com/badges/dba4f1fd-6036-4270-ba5f-09f63f88ec8e)                              |
 | The Linux Foundation     | Certified Kubernetes Security Specialist      | July 2024| [here](https://www.credly.com/badges/ef231542-888b-49de-9c9f-92ce46e9041a)                              |
 | The Linux Foundation     | Kubernetes and Cloud Native Security Associate| June 2024| [here](https://www.credly.com/badges/ba02599c-4a63-4a80-8ce2-8493de5bf604)                              |
