@@ -70,8 +70,6 @@ ___
 
 ### Talks & Events
 
-### Talks & Events
-
 | **Date**        | **Event Name**                                     | **Location**    | **Status**    |
 |------------------|---------------------------------------------------|-----------------|---------------|
 | **October 2024** | Linux Day                                         | Benevento       | Speaker 🎤    |
