@@ -87,7 +87,7 @@ ___
 | **June 2023**    | KCD Italy                                         | Milan           | Attendee 🦻   |
 | **March 2023**   | AWS Webinar                                       | Naples          | Speaker 🎤    |
 | **November 2022**| MeetUp Golang                                     | Naples          | Attendee 🦻   |
-| **October 2022** | Linux Day Benevento                               | Benevento       | Speaker 🦻    |
+| **October 2022** | Linux Day Benevento                               | Benevento       | Speaker 🎤    |
 | **September 2022**| MeetUp Kubernetes                                | Naples          | Attendee 🦻   |
 | **June 2022**    | AWS Summit                                        | Milan           | Attendee 🦻   |
 | **January 2022** | CyberHackademy Graduation                         | Naples          | Speaker 🎤    |
