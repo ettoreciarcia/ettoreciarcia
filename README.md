@@ -49,6 +49,10 @@ ___
 </p>
 <p align="center">
     <img src="https://www.vectorlogo.zone/logos/nginx/nginx-icon.svg" alt="mysql" width="45" height="55"/>
+    <img src="https://www.vectorlogo.zone/logos/traefikio/traefikio-icon.svg" alt="mysql" width="45" height="55"/>
+</p>
+<p align="center">
+    <img src="https://www.vectorlogo.zone/logos/rancher/rancher-icon.svg" alt="elastic" width="55" height="55"/>
 </p>
 
 ___
@@ -57,11 +61,13 @@ ___
 
 | Date          | Title |
 |:--------------|:------|
+| January 30, 2025 | [Boost Your Kubernetes Workflow: Aesthetic & Productivity Hacks](https://ettoreciarcia.com/publication/24-kubernetes-tool/) | 
+| December 26, 2024 | [Retrospective on 2024 and Resolution for 2025](https://ettoreciarcia.com/publication/23-retrospective-2024/) | 
 | July 20 2024 | [How to become a Kubestronaut](https://ettoreciarcia.com/publication/22-kubestronaut/) | 
 | May 19 2024 | [Managing dot files with Chezmoi](https://ettoreciarcia.com/publication/21-chezmoi/) | 
 | April 26, 2024 | [The native integration between Alert Manager and Microsoft Teams](https://ettoreciarcia.com/publication/20-alertmanager-teams/) | 
 | March 24, 2024 | [How to expose your website with Docker and Traefik](https://ettoreciarcia.com/publication/19-docker-and-traefik/) | 
-| February 1, 2024 | [Homelabbers Assemble: Proxmox and Terraform](https://ettoreciarcia.com/publication/18-proxmox-and-terraform/) | 
+
 
 
 [**All blog posts and articles**](https://ettoreciarcia.com/publication/)
