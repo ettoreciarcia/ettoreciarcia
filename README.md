@@ -61,12 +61,15 @@ ___
 
 | Date          | Title |
 |:--------------|:------|
+| June 15, 2025 | [How to setup a containerized Headscale Server with HTTPS and UI](https://ettoreciarcia.com/publication/26-network-overlay/) | 
+| May 23, 2025 | [Homepage: a single pain of glass for your Homelab](https://ettoreciarcia.com/publication/25-homepage/) | 
 | January 30, 2025 | [Boost Your Kubernetes Workflow: Aesthetic & Productivity Hacks](https://ettoreciarcia.com/publication/24-kubernetes-tool/) | 
 | December 26, 2024 | [Retrospective on 2024 and Resolution for 2025](https://ettoreciarcia.com/publication/23-retrospective-2024/) | 
 | July 20 2024 | [How to become a Kubestronaut](https://ettoreciarcia.com/publication/22-kubestronaut/) | 
-| May 19 2024 | [Managing dot files with Chezmoi](https://ettoreciarcia.com/publication/21-chezmoi/) | 
+| May 19 2024 | [Managing dot files with Chezmoi](https://ettoreciarcia.com/publication/21-chezmoi/) |
 | April 26, 2024 | [The native integration between Alert Manager and Microsoft Teams](https://ettoreciarcia.com/publication/20-alertmanager-teams/) | 
 | March 24, 2024 | [How to expose your website with Docker and Traefik](https://ettoreciarcia.com/publication/19-docker-and-traefik/) | 
+
 
 
 
@@ -102,19 +105,21 @@ ___
 
 ### Certifications
 
-| Organization             | Certificate                                   | Obtained | Badge                                                                                                   |
-|--------------------------|----------------------------------------------|----------|---------------------------------------------------------------------------------------------------------|
-| SUSE                     | SCDS in Rancher Manager 2.7 & 2.8 for Rancher Prime | Dec 2024| [here](https://badges.suse.com/815104d2-8409-4f9b-accf-b552a10e65e5#acc.GjHv395d) 
-| The Linux Foundation     | Kubestronaut                                  | July 2024| [here](https://www.credly.com/badges/dba4f1fd-6036-4270-ba5f-09f63f88ec8e)                              |
-| The Linux Foundation     | Certified Kubernetes Security Specialist      | July 2024| [here](https://www.credly.com/badges/ef231542-888b-49de-9c9f-92ce46e9041a)                              |
-| The Linux Foundation     | Kubernetes and Cloud Native Security Associate| June 2024| [here](https://www.credly.com/badges/ba02599c-4a63-4a80-8ce2-8493de5bf604)                              |
-| The Linux Foundation     | Kubernetes and Cloud Native Associate         | June 2024| [here](https://www.credly.com/badges/6e2e9c08-716e-4dcf-a379-7260545db035)                              |
-| The Linux Foundation     | Certified Kubernetes Application Developer    | June 2024| [here](https://www.credly.com/badges/9cb99deb-5041-482c-baeb-eff2772f92ce)                              |
-| Hashicorp                | Terraform Associate 003                       | Aug 2023 | [here](https://www.credly.com/badges/cb0941b1-242e-4e56-9849-cad4679313a0)                              |
-| The Linux Foundation     | Certified Kubernetes Administrator            | Apr 2023 | [here](https://www.credly.com/badges/224e9cf9-ced7-4baf-ad30-9414676d6ea9)                              |
-| Amazon Web Services      | AWS Solution Architect Associate              | Feb 2023 | [here](https://www.credly.com/badges/ab721d15-b684-44c4-8c5b-bd2a0049eb11)                              |
-| Microsoft                | Microsoft Azure Fundamentals AZ-900           | Nov 2020 | [here](https://www.credly.com/badges/413e77cc-ee64-434b-afd5-80146b7c19b6)                              |
-| Amazon Web Services      | AWS Cloud Practitioner                        | Oct 2020 | [here](https://www.credly.com/badges/1a5daf47-9214-489a-8616-87f1fdf0bb57)                              |
+| **Organization**     | **Certificate**                                     | **Obtained** | **Badge**                                                                             |
+| -------------------- | --------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------- |
+| SUSE                 | SCA in Rancher Manager 2.7 & 2.8 for Rancher Prime  | Dec 2024     | [🔗 Badge](https://badges.suse.com/0614bd78-0f19-4abd-b45e-e6cdd6dd9965#acc.LpqszhYB) |
+| SUSE                 | SCDS in Rancher Manager 2.7 & 2.8 for Rancher Prime | Dec 2024     | [🔗 Badge](https://badges.suse.com/815104d2-8409-4f9b-accf-b552a10e65e5#acc.GjHv395d) |
+| The Linux Foundation | Kubestronaut                                        | Jul 2024     | [🔗 Badge](https://www.credly.com/badges/dba4f1fd-6036-4270-ba5f-09f63f88ec8e)        |
+| The Linux Foundation | Certified Kubernetes Security Specialist            | Jul 2024     | [🔗 Badge](https://www.credly.com/badges/ef231542-888b-49de-9c9f-92ce46e9041a)        |
+| The Linux Foundation | Kubernetes and Cloud Native Security Associate      | Jun 2024     | [🔗 Badge](https://www.credly.com/badges/ba02599c-4a63-4a80-8ce2-8493de5bf604)        |
+| The Linux Foundation | Kubernetes and Cloud Native Associate               | Jun 2024     | [🔗 Badge](https://www.credly.com/badges/6e2e9c08-716e-4dcf-a379-7260545db035)        |
+| The Linux Foundation | Certified Kubernetes Application Developer          | Jun 2024     | [🔗 Badge](https://www.credly.com/badges/9cb99deb-5041-482c-baeb-eff2772f92ce)        |
+| HashiCorp            | Terraform Associate 003                             | Aug 2023     | [🔗 Badge](https://www.credly.com/badges/cb0941b1-242e-4e56-9849-cad4679313a0)        |
+| The Linux Foundation | Certified Kubernetes Administrator                  | Apr 2023     | [🔗 Badge](https://www.credly.com/badges/224e9cf9-ced7-4baf-ad30-9414676d6ea9)        |
+| Amazon Web Services  | AWS Solution Architect Associate                    | Feb 2023     | [🔗 Badge](https://www.credly.com/badges/ab721d15-b684-44c4-8c5b-bd2a0049eb11)        |
+| Microsoft            | Microsoft Azure Fundamentals AZ-900                 | Nov 2020     | [🔗 Badge](https://www.credly.com/badges/413e77cc-ee64-434b-afd5-80146b7c19b6)        |
+| Amazon Web Services  | AWS Cloud Practitioner                              | Oct 2020     | [🔗 Badge](https://www.credly.com/badges/1a5daf47-9214-489a-8616-87f1fdf0bb57)        |
+
 
 
 
