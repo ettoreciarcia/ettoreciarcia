@@ -61,6 +61,8 @@ ___
 
 | Date          | Title |
 |:--------------|:------|
+| August 14, 2025 | [On-prem Load Balancers: Why All Your Traffic Might Be Hitting Just One Node](https://ettoreciarcia.com/publication/28-metallb/) | 
+| July 20, 2025 | [How I Made My Linux Kernel Panic](https://ettoreciarcia.com/publication/27-kernel-dump/) | 
 | June 15, 2025 | [How to setup a containerized Headscale Server with HTTPS and UI](https://ettoreciarcia.com/publication/26-network-overlay/) | 
 | May 23, 2025 | [Homepage: a single pain of glass for your Homelab](https://ettoreciarcia.com/publication/25-homepage/) | 
 | January 30, 2025 | [Boost Your Kubernetes Workflow: Aesthetic & Productivity Hacks](https://ettoreciarcia.com/publication/24-kubernetes-tool/) | 
@@ -68,7 +70,7 @@ ___
 | July 20 2024 | [How to become a Kubestronaut](https://ettoreciarcia.com/publication/22-kubestronaut/) | 
 | May 19 2024 | [Managing dot files with Chezmoi](https://ettoreciarcia.com/publication/21-chezmoi/) |
 | April 26, 2024 | [The native integration between Alert Manager and Microsoft Teams](https://ettoreciarcia.com/publication/20-alertmanager-teams/) | 
-| March 24, 2024 | [How to expose your website with Docker and Traefik](https://ettoreciarcia.com/publication/19-docker-and-traefik/) | 
+
 
 
 
@@ -107,6 +109,8 @@ ___
 
 | **Organization**     | **Certificate**                                     | **Obtained** | **Badge**                                                                             |
 | -------------------- | --------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------- |
+| The Linux Foundation | Certified GitOps Associate                          | Jul 2025     | [🔗 Badge](https://www.credly.com/badges/ce518fae-35bf-46c7-ac03-d9b9cf75aaae)        |
+| The Linux Foundation | Prometheus Certified Associate                      | Jul 2025     | [🔗 Badge](https://www.credly.com/badges/c24b9226-cf38-404d-bd80-711187703afd)        |
 | SUSE                 | SCA in Rancher Manager 2.7 & 2.8 for Rancher Prime  | Dec 2024     | [🔗 Badge](https://badges.suse.com/0614bd78-0f19-4abd-b45e-e6cdd6dd9965#acc.LpqszhYB) |
 | SUSE                 | SCDS in Rancher Manager 2.7 & 2.8 for Rancher Prime | Dec 2024     | [🔗 Badge](https://badges.suse.com/815104d2-8409-4f9b-accf-b552a10e65e5#acc.GjHv395d) |
 | The Linux Foundation | Kubestronaut                                        | Jul 2024     | [🔗 Badge](https://www.credly.com/badges/dba4f1fd-6036-4270-ba5f-09f63f88ec8e)        |
