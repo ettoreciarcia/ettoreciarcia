@@ -61,6 +61,7 @@ ___
 
 | Date          | Title |
 |:--------------|:------|
+| November 5, 2025 | [Building and Testing Kubernetes Locally: Verifying an Upstream Fix with Kind](https://ettoreciarcia.com/publication/29-build-kubernetes-locally/) | 
 | August 14, 2025 | [On-prem Load Balancers: Why All Your Traffic Might Be Hitting Just One Node](https://ettoreciarcia.com/publication/28-metallb/) | 
 | July 20, 2025 | [How I Made My Linux Kernel Panic](https://ettoreciarcia.com/publication/27-kernel-dump/) | 
 | June 15, 2025 | [How to setup a containerized Headscale Server with HTTPS and UI](https://ettoreciarcia.com/publication/26-network-overlay/) | 
