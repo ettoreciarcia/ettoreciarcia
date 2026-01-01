@@ -112,6 +112,10 @@ ___
 
 | **Organization**     | **Certificate**                                     | **Obtained** | **Badge**                                                                             |
 | -------------------- | --------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------- |
+| The Linux Foundation | Certified Backstage Associate                       | Dec 2025     | [🔗 Badge](https://www.credly.com/badges/ac2e5446-4c5c-4a73-80d1-b71bfefcfb1e/linked_in_profile) |
+| The Linux Foundation | Cilium Certified Associate                          | Dec 2025     | [🔗 Badge](https://www.credly.com/badges/5cdeee6e-d4d3-4746-9c5d-d36eff6e2f38/linked_in_profile) |
+| The Linux Foundation | Certified Argo Project Associate                    | Dec 2025     | [🔗 Badge](https://www.credly.com/badges/455a952c-f5b2-4b01-8f2f-fedbd06479a7)        |
+| The Linux Foundation | Certified Cloud Native Platform Engineering Associate | Dec 2025     | [🔗 Badge](https://www.credly.com/badges/ae67874e-42b9-4cb5-b1e3-98bb6bd453a8)        |
 | The Linux Foundation | Certified GitOps Associate                          | Jul 2025     | [🔗 Badge](https://www.credly.com/badges/ce518fae-35bf-46c7-ac03-d9b9cf75aaae)        |
 | The Linux Foundation | Prometheus Certified Associate                      | Jul 2025     | [🔗 Badge](https://www.credly.com/badges/c24b9226-cf38-404d-bd80-711187703afd)        |
 | SUSE                 | SCA in Rancher Manager 2.7 & 2.8 for Rancher Prime  | Dec 2024     | [🔗 Badge](https://badges.suse.com/0614bd78-0f19-4abd-b45e-e6cdd6dd9965#acc.LpqszhYB) |
@@ -126,10 +130,3 @@ ___
 | Amazon Web Services  | AWS Solution Architect Associate                    | Feb 2023     | [🔗 Badge](https://www.credly.com/badges/ab721d15-b684-44c4-8c5b-bd2a0049eb11)        |
 | Microsoft            | Microsoft Azure Fundamentals AZ-900                 | Nov 2020     | [🔗 Badge](https://www.credly.com/badges/413e77cc-ee64-434b-afd5-80146b7c19b6)        |
 | Amazon Web Services  | AWS Cloud Practitioner                              | Oct 2020     | [🔗 Badge](https://www.credly.com/badges/1a5daf47-9214-489a-8616-87f1fdf0bb57)        |
-
-
-
-
-<!-- [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=ettoreciarcia)](https://github.com/anuraghazra/github-readme-stats) -->
-
-
