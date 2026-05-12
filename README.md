@@ -60,25 +60,31 @@ ___
 
 ___
 
-### Certifications
+## Certifications (24)
 
-| **Organization**     | **Certificate**                                     | **Obtained** | **Badge**                                                                             |
-| -------------------- | --------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------- |
-| The Linux Foundation | Certified Backstage Associate                       | Dec 2025     | [🔗 Badge](https://www.credly.com/badges/ac2e5446-4c5c-4a73-80d1-b71bfefcfb1e/linked_in_profile) |
-| The Linux Foundation | Cilium Certified Associate                          | Dec 2025     | [🔗 Badge](https://www.credly.com/badges/5cdeee6e-d4d3-4746-9c5d-d36eff6e2f38/linked_in_profile) |
-| The Linux Foundation | Certified Argo Project Associate                    | Dec 2025     | [🔗 Badge](https://www.credly.com/badges/455a952c-f5b2-4b01-8f2f-fedbd06479a7)        |
-| The Linux Foundation | Certified Cloud Native Platform Engineering Associate | Dec 2025     | [🔗 Badge](https://www.credly.com/badges/ae67874e-42b9-4cb5-b1e3-98bb6bd453a8)        |
-| The Linux Foundation | Certified GitOps Associate                          | Jul 2025     | [🔗 Badge](https://www.credly.com/badges/ce518fae-35bf-46c7-ac03-d9b9cf75aaae)        |
-| The Linux Foundation | Prometheus Certified Associate                      | Jul 2025     | [🔗 Badge](https://www.credly.com/badges/c24b9226-cf38-404d-bd80-711187703afd)        |
-| SUSE                 | SCA in Rancher Manager 2.7 & 2.8 for Rancher Prime  | Dec 2024     | [🔗 Badge](https://badges.suse.com/0614bd78-0f19-4abd-b45e-e6cdd6dd9965#acc.LpqszhYB) |
-| SUSE                 | SCDS in Rancher Manager 2.7 & 2.8 for Rancher Prime | Dec 2024     | [🔗 Badge](https://badges.suse.com/815104d2-8409-4f9b-accf-b552a10e65e5#acc.GjHv395d) |
-| The Linux Foundation | Kubestronaut                                        | Jul 2024     | [🔗 Badge](https://www.credly.com/badges/dba4f1fd-6036-4270-ba5f-09f63f88ec8e)        |
-| The Linux Foundation | Certified Kubernetes Security Specialist            | Jul 2024     | [🔗 Badge](https://www.credly.com/badges/ef231542-888b-49de-9c9f-92ce46e9041a)        |
-| The Linux Foundation | Kubernetes and Cloud Native Security Associate      | Jun 2024     | [🔗 Badge](https://www.credly.com/badges/ba02599c-4a63-4a80-8ce2-8493de5bf604)        |
-| The Linux Foundation | Kubernetes and Cloud Native Associate               | Jun 2024     | [🔗 Badge](https://www.credly.com/badges/6e2e9c08-716e-4dcf-a379-7260545db035)        |
-| The Linux Foundation | Certified Kubernetes Application Developer          | Jun 2024     | [🔗 Badge](https://www.credly.com/badges/9cb99deb-5041-482c-baeb-eff2772f92ce)        |
-| HashiCorp            | Terraform Associate 003                             | Aug 2023     | [🔗 Badge](https://www.credly.com/badges/cb0941b1-242e-4e56-9849-cad4679313a0)        |
-| The Linux Foundation | Certified Kubernetes Administrator                  | Apr 2023     | [🔗 Badge](https://www.credly.com/badges/224e9cf9-ced7-4baf-ad30-9414676d6ea9)        |
-| Amazon Web Services  | AWS Solution Architect Associate                    | Feb 2023     | [🔗 Badge](https://www.credly.com/badges/ab721d15-b684-44c4-8c5b-bd2a0049eb11)        |
-| Microsoft            | Microsoft Azure Fundamentals AZ-900                 | Nov 2020     | [🔗 Badge](https://www.credly.com/badges/413e77cc-ee64-434b-afd5-80146b7c19b6)        |
-| Amazon Web Services  | AWS Cloud Practitioner                              | Oct 2020     | [🔗 Badge](https://www.credly.com/badges/1a5daf47-9214-489a-8616-87f1fdf0bb57)        |
+| Organization          | Certification                                                   | Date     | Badge                                                                                 |
+| --------------------- | --------------------------------------------------------------- | -------- | ------------------------------------------------------------------------------------- |
+| The Linux Foundation  | 🥇 Golden Kubestronaut                                          | Apr 2026 | [🔗 Credly](https://www.credly.com/badges/cdf0ad5e-2002-41d8-b023-c4fdb9917997)      |
+| The Linux Foundation  | OpenTelemetry Certified Associate (OTCA)                       | Apr 2026 | [🔗 Credly](https://www.credly.com/badges/3744240a-a488-48a4-94e5-508bf960f80c)      |
+| The Linux Foundation  | Certified Cloud Native Platform Engineer (CNPE)                | Apr 2026 | [🔗 Credly](https://www.credly.com/badges/d0200aae-e468-427c-b289-83a4e9c326bf)      |
+| The Linux Foundation  | Linux Foundation Certified Systems Administrator (LFCS)         | Mar 2026 | [🔗 Credly](https://www.credly.com/badges/bda8389d-ec67-4297-9fef-647a26566770)      |
+| The Linux Foundation  | Istio Certified Associate (ICA)                                | Mar 2026 | [🔗 Credly](https://www.credly.com/badges/b1a7b781-e554-4a5d-b750-dc5aee5947a5)      |
+| The Linux Foundation  | Kyverno Certified Associate (KCA)                              | Feb 2026 | [🔗 Credly](https://www.credly.com/badges/aef675c7-274f-4581-a88b-0857f7d0fcf0)      |
+| The Linux Foundation  | Certified Backstage Associate (CBA)                            | Dec 2025 | [🔗 Credly](https://www.credly.com/badges/ac2e5446-4c5c-4a73-80d1-b71bfefcfb1e)      |
+| The Linux Foundation  | Cilium Certified Associate (CCA)                               | Dec 2025 | [🔗 Credly](https://www.credly.com/badges/5cdeee6e-d4d3-4746-9c5d-d36eff6e2f38)      |
+| The Linux Foundation  | Certified Argo Project Associate (CAPA)                        | Dec 2025 | [🔗 Credly](https://www.credly.com/badges/455a952c-f5b2-4b01-8f2f-fedbd06479a7)      |
+| The Linux Foundation  | Certified Cloud Native Platform Engineering Associate (CNPA)   | Dec 2025 | [🔗 Credly](https://www.credly.com/badges/ae67874e-42b9-4cb5-b1e3-98bb6bd453a8)      |
+| The Linux Foundation  | Certified GitOps Associate (CGOA)                              | Jul 2025 | [🔗 Credly](https://www.credly.com/badges/ce518fae-35bf-46c7-ac03-d9b9cf75aaae)      |
+| The Linux Foundation  | Prometheus Certified Associate (PCA)                           | Jul 2025 | [🔗 Credly](https://www.credly.com/badges/c24b9226-cf38-404d-bd80-711187703afd)      |
+| SUSE                  | SCA in Rancher Manager 2.7 & 2.8 for Rancher Prime             | Dec 2024 | [🔗 Badge](https://badges.suse.com/0614bd78-0f19-4abd-b45e-e6cdd6dd9965#acc.LpqszhYB) |
+| SUSE                  | SCDS in Rancher Manager 2.7 & 2.8 for Rancher Prime            | Dec 2024 | [🔗 Badge](https://badges.suse.com/815104d2-8409-4f9b-accf-b552a10e65e5#acc.GjHv395d) |
+| The Linux Foundation  | Kubestronaut                                                   | Jul 2024 | [🔗 Credly](https://www.credly.com/badges/dba4f1fd-6036-4270-ba5f-09f63f88ec8e)      |
+| The Linux Foundation  | Certified Kubernetes Security Specialist (CKS)                 | Jul 2024 | [🔗 Credly](https://www.credly.com/badges/ef231542-888b-49de-9c9f-92ce46e9041a)      |
+| The Linux Foundation  | Kubernetes and Cloud Native Security Associate (KCSA)          | Jun 2024 | [🔗 Credly](https://www.credly.com/badges/ba02599c-4a63-4a80-8ce2-8493de5bf604)      |
+| The Linux Foundation  | Kubernetes and Cloud Native Associate (KCNA)                   | Jun 2024 | [🔗 Credly](https://www.credly.com/badges/6e2e9c08-716e-4dcf-a379-7260545db035)      |
+| The Linux Foundation  | Certified Kubernetes Application Developer (CKAD)              | Jun 2024 | [🔗 Credly](https://www.credly.com/badges/9cb99deb-5041-482c-baeb-eff2772f92ce)      |
+| HashiCorp             | Terraform Associate 003                                        | Aug 2023 | [🔗 Credly](https://www.credly.com/badges/cb0941b1-242e-4e56-9849-cad4679313a0)      |
+| The Linux Foundation  | Certified Kubernetes Administrator (CKA)                       | Apr 2023 | [🔗 Credly](https://www.credly.com/badges/224e9cf9-ced7-4baf-ad30-9414676d6ea9)      |
+| Amazon Web Services   | AWS Solutions Architect – Associate                            | Feb 2023 | [🔗 Credly](https://www.credly.com/badges/ab721d15-b684-44c4-8c5b-bd2a0049eb11)      |
+| Microsoft             | Microsoft Azure Fundamentals (AZ-900)                          | Nov 2020 | [🔗 Credly](https://www.credly.com/badges/413e77cc-ee64-434b-afd5-80146b7c19b6)      |
+| Amazon Web Services   | AWS Cloud Practitioner                                         | Oct 2020 | [🔗 Credly](https://www.credly.com/badges/1a5daf47-9214-489a-8616-87f1fdf0bb57)      |
