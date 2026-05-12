@@ -15,16 +15,11 @@ ___
 |:--------------|:------|
 | November 5, 2025 | [Building and Testing Kubernetes Locally: Verifying an Upstream Fix with Kind](https://ettoreciarcia.com/publication/29-build-kubernetes-locally/) | 
 | August 14, 2025 | [On-prem Load Balancers: Why All Your Traffic Might Be Hitting Just One Node](https://ettoreciarcia.com/publication/28-metallb/) | 
-| July 20, 2025 | [How I Made My Linux Kernel Panic](https://ettoreciarcia.com/publication/27-kernel-dump/) | 
 | June 15, 2025 | [How to setup a containerized Headscale Server with HTTPS and UI](https://ettoreciarcia.com/publication/26-network-overlay/) | 
 | May 23, 2025 | [Homepage: a single pain of glass for your Homelab](https://ettoreciarcia.com/publication/25-homepage/) | 
 | January 30, 2025 | [Boost Your Kubernetes Workflow: Aesthetic & Productivity Hacks](https://ettoreciarcia.com/publication/24-kubernetes-tool/) | 
-| December 26, 2024 | [Retrospective on 2024 and Resolution for 2025](https://ettoreciarcia.com/publication/23-retrospective-2024/) | 
 | July 20 2024 | [How to become a Kubestronaut](https://ettoreciarcia.com/publication/22-kubestronaut/) | 
-| May 19 2024 | [Managing dot files with Chezmoi](https://ettoreciarcia.com/publication/21-chezmoi/) |
 | April 26, 2024 | [The native integration between Alert Manager and Microsoft Teams](https://ettoreciarcia.com/publication/20-alertmanager-teams/) | 
-
-
 
 
 
